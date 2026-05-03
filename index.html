@@ -1,19 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Game Dev Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth | Game Developer</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            background: #020617;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Hi, I'm [Your Name]</h1>
-  <p>Game Developer (Unity)</p>
 
-  <h2>My Games</h2>
+<header>
+    <h1>Samarth</h1>
+    <p>Game Developer | Unity | C#</p>
 
-  <div>
-    <h3>My First Game</h3>
-    <p>A 2D platformer made in Unity</p>
-    <a href="https://youritchlink.itch.io/game">Play Game</a>
-  </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a game developer focused on creating immersive gameplay experiences.
+        Currently working on mobile and PC games using Unity.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Luma: The Last Flame</h3>
+        <img src="images/luma.jpg" alt="Luma Game">
+        <p>Open-world RPG with exploration, crafting, and survival mechanics.</p>
+        <p><b>Tech:</b> Unity, C#</p>
+        <a href="#">Play / GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Zombie Survival Mode</h3>
+        <img src="images/zombie.jpg" alt="Zombie Game">
+        <p>Survival-based gameplay with waves of enemies and boss fights.</p>
+        <p><b>Tech:</b> Unity, AI System</p>
+        <a href="#">Play / GitHub</a>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/yourname</p>
+</section>
+
+<footer>
+    <p>© 2026 Samarth</p>
+</footer>
 
 </body>
 </html>
